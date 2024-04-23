@@ -39,7 +39,7 @@ async function getStreams(title: string) {
       const sourceName = element.parent().parent().parent().find('.version-host').text().trim();
       let embedId;
       switch (sourceName) {
-        case 'mixdrop.ga':
+        case 'mixdrop.ag':
           embedId = 'mixdrop';
           break;
         case 'voe.sx':
